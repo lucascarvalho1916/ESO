@@ -35,7 +35,7 @@ for nome_arquivo in arquivos_para_combinar:
             if file == nome_arquivo:
                 # Carregar a planilha e adicioná-la à lista, lendo todos os campos como texto
                 df = pd.read_csv(
-                    os.path.join(root, file), teste
+                    os.path.join(root, file),
                     encoding='ISO-8859-1',
                     delimiter=';',
                     quotechar='"',
